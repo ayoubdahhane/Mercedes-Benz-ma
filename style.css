@@ -407,7 +407,11 @@ header{
 }
 
 
-    
+.rdv{
+    text-decoration: none;
+    color: black;
+
+}
 
 /* Page 1 */
 
@@ -1411,7 +1415,7 @@ footer{
 
 /* responsive */
 /* Large devices (Disktops) */
-@media (max-width: 1440px) {
+@media (min-width: 1194px) and (max-width: 1440px) {
     .countainer{
         width: 94vw;
         margin-left: 3vw;
@@ -1483,7 +1487,7 @@ footer{
 }
 
 /* Large devices (Laptops) */
-@media (max-width: 1195px) {
+@media (min-width: 979px) and (max-width: 1195px) {
     .countainer{
         width: 97vw;
         margin-left: calc(3vw/2);
@@ -1551,8 +1555,9 @@ footer{
     }
 }
 
+
 /* Large devices (Tablets) */
-@media (max-width:978px) {
+@media /*(min-width: 600px) and*/ (max-width:978px) {
     .countainer{
         width: 97vw;
         margin-left: calc(3vw/2);
