@@ -25,6 +25,12 @@ Key pages and assets included:
 
 ---
 
+## Live Demo
+Check out the live demo [here](https://ayoubdahhane.github.io/Mercedes-Benz-ma/).
+
+
+---
+
 ## 📂 Project Structure
 
 Top-level files:
